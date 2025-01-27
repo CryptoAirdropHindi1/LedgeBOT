@@ -86,7 +86,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-console.log(chalk.green("=== Telegram Channel : NT Exhaust ( @NTExhaust ) ===\n"));
 
 rl.question(chalk.cyan('Enter referral code: '), (reffcode) => {
   rl.question(chalk.cyan('Enter number of wallets to create: '), async (loopCount) => {
